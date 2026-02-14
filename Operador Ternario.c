@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(int argc, char const *argv[])
+int main()
 {
     int idade;
     int resultado;
@@ -10,11 +10,11 @@ int main(int argc, char const *argv[])
     resultado = (idade >= 18) ? 1 : 0;
     if (resultado == 1)
     {
-        printf("Voce e maior de idade\n");
+        printf("Voce é maior de idade\n");
     }
     else
     {
-        printf("Voce e menor de idade\n");
+        printf("Voce é menor de idade\n");
     }
     
     return 0;
